@@ -1,55 +1,63 @@
 /* CSS RESET */
-body, img, h1, p, fieldset, legend, label, input, select, textarea, button {
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+label,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
 }
 
 @font-face {
-    font-family: "Montserrat";
-    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
-    font-style: normal;
-    font-display: swap;
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: "CormorantGaramond";
-    src: url(../fonts/CormorantGaramond-VariableFont_wght.ttf);
-    font-style: normal;
-    font-display: swap;
+  font-family: "CormorantGaramond";
+  src: url(../fonts/CormorantGaramond-VariableFont_wght.ttf);
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
-    /* Background Colors */
-    --background-primary-color: #040A13;
-    --background-secondary-color: #060C16;
-    --background-tertiary-color: #03060B;
+  /* Background Colors */
+  --background-primary-color: #040a13;
+  --background-secondary-color: #060c16;
+  --background-tertiary-color: #03060b;
 
-    /* Button Colors */
-    --button-primary-color: #0F1A31;
-    --button-secondary-color: #A67B4E;
-    --button-tertiary-color: #050A12;
+  /* Button Colors */
+  --button-primary-color: #0f1a31;
+  --button-secondary-color: #a67b4e;
+  --button-tertiary-color: #050a12;
 
-    /* Button Hover Colors */
-    --button-primary-hover-color: #2e4a85;
-    --button-secondary-hover-color: #e0a667;
-    --button-tertiary-hover-color: #1c3766;
+  /* Button Hover Colors */
+  --button-primary-hover-color: #2e4a85;
+  --button-secondary-hover-color: #e0a667;
+  --button-tertiary-hover-color: #1c3766;
 
-    /* Text Colors */
-    --text-primary-color: #FFFF;
-    --text-secondary-color: #acadaf;
-    --text-tertiary-color: #8394AB;
+  /* Text Colors */
+  --text-primary-color: #ffff;
+  --text-secondary-color: #acadaf;
+  --text-tertiary-color: #8394ab;
 
-    /* Font Wheights */
-    --title-weight: 700;
-    --text-weight: 400;
-    --menu-text-weight: 500;
+  /* Font Wheights */
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
 }
 
-h1{
-    font-family: "Montserrat";
-    font-weight: var(--title-weight);
-    color: var(--text-tertiary-color);
-
+h1 {
+  font-family: "Montserrat";
+  font-weight: var(--title-weight);
+  color: var(--text-tertiary-color);
 }
-
