@@ -1,7 +1,29 @@
+:root {
+    /* Background Colors */
+    --background-primary-color: #040A13;
+    --background-secondary-color: #060C16;
+    --background-tertiary-color: #03060B;
+
+    /* Button Colors */
+    --button-primary-color: #0F1A31;
+    --button-secondary-color: #A67B4E;
+    --button-tertiary-color: #050A12;
+
+    /* Button Hover Colors */
+    --button-primary-hover-color: #2e4a85;
+    --button-secondary-hover-color: #e0a667;
+    --button-tertiary-hover-color: #1c3766;
+
+    /* Text Colors */
+    --text-primary-color: #FFFF;
+    --text-secondary-color: #acadaf;
+    --text-tertiary-color: #8394AB;
+
+}
+
 /* CSS RESET */
 body, img, h1, p, fieldset, legend, label, input, select, textarea, button {
     margin: 0;
     padding: 0;
     box-sizing: 0;
 }
-
