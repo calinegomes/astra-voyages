@@ -5,36 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="icon" type="image/png" href="favico.png" />
+    <script src="./js/menu.js" defer></script>
     <title>Astra Voyages</title>
   </head>
+
   <body>
     <header>
+      <!-- Logo -->
       <a class="logo" href="index.html" title="Back to initial page">
         <img
           src="img/simbol_astra.png"
           alt="Compass from the Astra Voyages logo"
         />
       </a>
+
+      <!-- Navigation Menu -->
       <div class="navigation-menu">
-      <img src="img/menu.png" alt="menu" />
-      <nav>
-        <ul>
-          <li><a href="blog.html" target="_blank" title="Blog">Blog</a></li>
-          <li>
-            <a
-              href="package.html"
-              target="_blank"
-              title="Access Travel Packages"
-              >Travel Package</a
-            >
-          </li>
-          <li>
-            <a href="contact.html" target="_blank" title="Access Contacts"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
+        <button
+          type="button"
+          class="menu-button"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="menu-links"
+        >
+          <img src="img/menu.png" alt="" />
+        </button>
+
+        <nav id="menu-links" hidden>
+          <ul>
+            <li>
+              <a href="blog.html" target="_blank" title="Blog">Blog</a>
+            </li>
+            <li>
+              <a
+                href="package.html"
+                target="_blank"
+                title="Access Travel Packages"
+              >
+                Travel Package
+              </a>
+            </li>
+            <li>
+              <a href="contact.html" target="_blank" title="Access Contacts">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
   </body>

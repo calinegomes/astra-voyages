@@ -13,10 +13,21 @@ header {
   display: inline-block;
 }
 
-.navigation-menu{
-    margin-top: 24px;
+.navigation-menu {
+  margin-top: 24px;
 }
 
-nav {
+.menu-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.menu-button img {
+  display: block;
+}
+
+.navigation-menu nav[hidden] {
   display: none;
 }
